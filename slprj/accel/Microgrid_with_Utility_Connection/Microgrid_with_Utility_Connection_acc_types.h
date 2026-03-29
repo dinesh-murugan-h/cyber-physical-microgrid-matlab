@@ -1,0 +1,9 @@
+#ifndef Microgrid_with_Utility_Connection_acc_types_h_
+#define Microgrid_with_Utility_Connection_acc_types_h_
+typedef struct P_RMS_Microgrid_with_Utility_Connection_T_
+P_RMS_Microgrid_with_Utility_Connection_T ; typedef struct
+P_TrueRMS_Microgrid_with_Utility_Connection_T_
+P_TrueRMS_Microgrid_with_Utility_Connection_T ; typedef struct
+P_Microgrid_with_Utility_Connection_T_ P_Microgrid_with_Utility_Connection_T
+;
+#endif
