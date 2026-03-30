@@ -1,8 +1,0 @@
-#include "ne_ds.h"
-#include "Microgrid_with_Utility_Connection_b6e50c02_0_initer_idae_ds_sys_struct.h"
-#include "Microgrid_with_Utility_Connection_b6e50c02_0_initer_idae_ds_dxicr.h"
-#include "Microgrid_with_Utility_Connection_b6e50c02_0_initer_idae_ds.h"
-#include "Microgrid_with_Utility_Connection_b6e50c02_0_initer_idae_ds_externals.h"
-#include "Microgrid_with_Utility_Connection_b6e50c02_0_initer_idae_ds_external_struct.h"
-#include "ssc_ml_fun.h"
-int32_T Microgrid_with_Utility_Connection_b6e50c02_0_initer_idae_ds_dxicr ( const NeDynamicSystem * sys , const NeDynamicSystemInput * t2 , NeDsMethodOutput * out ) { static real_T _cg_const_1 [ 9 ] = { 1.0 , 0.0 , 0.0 , 0.0 , 1.0 , 0.0 , 0.0 , 0.0 , 1.0 } ; real_T intermediate_der0 [ 9 ] ; size_t t1 ; ( void ) t2 ; intermediate_der0 [ 0 ] = _cg_const_1 [ 0 ] ; intermediate_der0 [ 1 ] = _cg_const_1 [ 1 ] ; intermediate_der0 [ 2 ] = _cg_const_1 [ 2 ] ; intermediate_der0 [ 3 ] = _cg_const_1 [ 3 ] ; intermediate_der0 [ 4 ] = _cg_const_1 [ 4 ] ; intermediate_der0 [ 5 ] = _cg_const_1 [ 5 ] ; intermediate_der0 [ 6 ] = _cg_const_1 [ 6 ] ; intermediate_der0 [ 7 ] = _cg_const_1 [ 7 ] ; intermediate_der0 [ 8 ] = _cg_const_1 [ 8 ] ; for ( t1 = 0UL ; t1 < 9UL ; t1 ++ ) { out -> mDXICR . mX [ t1 ] = intermediate_der0 [ t1 ] ; } out -> mDXICR . mX [ 9UL ] = 1.0 ; out -> mDXICR . mX [ 10UL ] = 1.0 ; out -> mDXICR . mX [ 11UL ] = 1.0 ; out -> mDXICR . mX [ 12UL ] = 1.0 ; out -> mDXICR . mX [ 13UL ] = 1.0 ; out -> mDXICR . mX [ 14UL ] = 1.0 ; out -> mDXICR . mX [ 15UL ] = 1.0 ; out -> mDXICR . mX [ 16UL ] = 1.0 ; out -> mDXICR . mX [ 17UL ] = 1.0 ; out -> mDXICR . mX [ 18UL ] = 1.0 ; out -> mDXICR . mX [ 19UL ] = 1.0 ; out -> mDXICR . mX [ 20UL ] = 1.0 ; ( void ) sys ; ( void ) out ; return 0 ; }
