@@ -1,0 +1,6 @@
+slprj/
+*.slxc
+resources/project/*
+*.tmw
+*.asv
+*.autosave
